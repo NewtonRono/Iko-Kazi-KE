@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JobDetail">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/jobTitle"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/font"
+            android:textColor="#0288D1"
+            android:textSize="22dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textStyle="bold" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/font"
+            android:textColor="#0288D1"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:visibility="gone"
+            android:textSize="20dp"
+            android:text="Job Responsibilities and Qualifications"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textStyle="bold" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_recycler"
+            android:layout_below="@id/lin">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:id="@+id/applytitlo"
+            android:fontFamily="@font/font"
+            android:textColor="#0288D1"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:text="How to Apply"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:id="@+id/hoow"
+            android:autoLink="web"
+            android:fontFamily="@font/font"
+            android:textColor="#000000"
+            android:paddingTop="10dp"
+            android:visibility="gone"
+            android:text="@string/apply"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:id="@+id/apply"
+            android:autoLink="web"
+            android:fontFamily="@font/font"
+            android:textColor="#000000"
+            android:paddingTop="10dp"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:id="@+id/link"
+            android:autoLink="web"
+            android:fontFamily="@font/font"
+            android:textColor="#000000"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:paddingBottom="8dp"
+            android:textStyle="bold" />
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            ads:adSize="MEDIUM_RECTANGLE"
+            ads:adUnitId="@string/banner">
+        </com.google.android.gms.ads.AdView>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</ScrollView>

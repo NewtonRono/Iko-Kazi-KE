@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Iko Kazi KE</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Iko Kazi KE</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="banner">ca-app-pub-7282647070422022/8626599677</string>
+    <string name="interstitial">ca-app-pub-7282647070422022/2659957121</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Categories</string>
+    <string name="menu_slideshow">Internships</string>
+    <string name="menu_tools">About Us</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Rate us</string>
+   <string name="apply">Send CV, Cover Letter and other relevant documents through the given email address or Click the link below to apply</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

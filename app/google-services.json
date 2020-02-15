@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "22220159480",
+    "firebase_url": "https://iko-kazi-ke.firebaseio.com",
+    "project_id": "iko-kazi-ke",
+    "storage_bucket": "iko-kazi-ke.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22220159480:android:ea90a6ac598f39318bbe0d",
+        "android_client_info": {
+          "package_name": "com.jobs.ikokazike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22220159480-317udljp2a0gbef1agp4dpqv8ckc4465.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNhPenVBBJc8x8fXQmnv_WfnLDa6S3ako"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22220159480-317udljp2a0gbef1agp4dpqv8ckc4465.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
